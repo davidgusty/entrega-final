@@ -15,12 +15,13 @@ h1  { color: rgb(45, 16, 214);
 	padding: 0;
 	}
 
-h2 { color: darkred; 
+h2 { color: rgb(245, 19, 19); 
 	text-align: center;
 	font-size: 34px;
 	background-color: bisque;
 	margin: 0%;
-	padding: 0%;}
+	padding: 0%;
+	;}
 
 nav 
 	.id sonido { background-color: yellow;
@@ -28,19 +29,26 @@ nav
 			  	
 	 
 	li {display: inline-block;
-		background: rgb(211, 211, 211);
+		color: rgb(24, 1, 233);
+		background-color: green ;
 		text-align: center;
 		margin: 0;
-		padding: 5px 10px;
+		padding: 10px 10px;
 		list-style: none;
-		align-items: center ;}
+		align-items: center ;
+		transition: 2s, 1s, 1s;}
+	li:hover {
+		height: 20px;
+		width: 150px;
+		color: white;
+	}
 
 	.grid-container {
 		background-color: rgba(146, 69, 142, 0.363);
 		display: grid;
 		flex-direction: row;}
 	
-		 a:hover {color: black;}
+		 
 		
 .fondo {
 		background: url('../imge/local.jpg') #000;
@@ -81,3 +89,22 @@ footer {text-align: center;
 	animation-timing-function: linear;
 }
 
+.parrafo { 
+	font-size: 30px;
+	color: blue;
+	background-color: lightgreen;
+	animation-duration: 3s;
+	animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 300%
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+}
