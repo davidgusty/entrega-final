@@ -70,4 +70,14 @@ footer {text-align: center;
 	.li {flex-direction: column;
 		display: flex;}
 	}
+@keyframes parafo {
+
+}
+.parrafo {
+	
+	background-color: red;
+	animation-name: parrafo;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
 
