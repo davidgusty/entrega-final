@@ -25,11 +25,11 @@ h1  { color: rgb(45, 16, 214);
 header h2 {
 		background: lightblue;
 		color: red;
-		animation-name: mover;
+		animation-name: electro;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
 	}
-	@keyframes mover {
+	@keyframes electro{
 		0%{
 			transform: translate(0);
 		}
@@ -101,6 +101,7 @@ footer {text-align: center;
 	color: blue;
 	background-color: lightgreen;
 	animation-duration: 3s;
+	animation-delay: 2s;
 	animation-name: slidein;
   }
   
